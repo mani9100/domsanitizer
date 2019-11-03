@@ -1,0 +1,39 @@
+<!-- <p>we are using interplation so we can get same ts content  </p>
+<p>{{injectedhtml}}</p>
+
+
+<p>in this case we r using innerHTML by default angular provides some sanitization so we cant get 
+  script tag on dom and we will get error on console
+</p>
+<p [innerHTML]="injectedhtml"></p>
+
+
+
+<p>in this case we r using url we will get same ts  content</p>
+<p>{{attackersUrl}}</p>
+
+
+
+<p>in this case we r using href by default angular provides some sanitization so we cant get 
+  script tag on dom and we will get error on console
+</p>
+<a [href]='attackersUrl'> </a>
+
+
+<p><a [href]="GenuineUrl"> click me. alert</a></p> -->
+
+ 
+
+<h4>video resource url</h4>
+
+<!-- <p>UntrustedVideoUrl;==</p> -->
+<!-- <iframe [src]="UntrustedVideoUrl"   width="590" heigth="400" frameborder="0"></iframe> -->
+
+
+<p>GenuinevideoUrl;==</p> -->
+ <iframe [src]="GenuinevideoUrl"   width="590" heigth="400" frameborder="0"></iframe> 
+
+
+
+
+<router-outlet></router-outlet>
